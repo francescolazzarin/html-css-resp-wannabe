@@ -126,7 +126,14 @@ img {
 
 /************************************************
     SOLUZIONE RESPONSIVE
- ************************************************/
+    ************************************************/
+@media screen and (max-width:768px){
+        /* MAIN */
+    .container{
+        width: 100%;
+    }
+   
+}
 @media screen and (max-width:480px ) {
     /* main */
     .container{
@@ -145,7 +152,7 @@ img {
     }
     .why-us h2{
         width: 60%;
-        margin-inline: auto;
+        margin-inline: autom;
     }
     .why-us .col.col-left{
         margin-bottom: 3rem;
