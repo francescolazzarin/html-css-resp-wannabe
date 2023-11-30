@@ -137,14 +137,40 @@ img {
 
 
 @media screen and (max-width:768px){
-        /* MAIN */
+     .site-header{
+        margin-top: 1.5rem;
+     }  
+      /* MAIN */
     .container{
         width: 100%;
     }
-
+    
+    h1{
+        font-size: 1.9rem;
+        margin-bottom: 1.5rem;
+    }
+    h2{
+        font-size: 1.4rem;
+        margin-bottom: 1.25rem;
+    }
+    h3{
+       font-size: 0.9rem;
+       margin-bottom: 0.5rem; 
+    }
    
 }
 @media screen and (max-width:480px ) {
+   h1{
+    font-size: 1.7rem;
+   }
+   h2{
+    font-size: 1.2rem;
+   }
+   h3{
+    font-size: 0.85rem;
+   }
+   
+   
     /* main */
     .container{
         width: 100%;
@@ -156,13 +182,11 @@ img {
         width: 100%;
     }
     p.text{
-        width: 80%;
         margin-bottom: 3rem;
-        margin-inline: auto;
     }
     .why-us h2{
         width: 60%;
-        margin-inline: autom;
+        margin-inline: auto;
     }
     .why-us .col.col-left{
         margin-bottom: 3rem;
